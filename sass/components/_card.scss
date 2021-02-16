@@ -1,0 +1,55 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //  TODO: make this one line
+  height: 50%;
+  max-width: 24rem;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.card_content_thumbnail {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  max-width: 100px;
+  width: 100%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.card_background {
+  display: flex;
+  width: 100%;
+  height: 38%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card_content_personalDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.card_info {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid black;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 14px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  .card_info_count,
+  .card_info_type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

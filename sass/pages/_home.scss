@@ -1,0 +1,25 @@
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home::before {
+  content: url("../../images/bg-pattern-top.svg");
+  position: absolute;
+  top: -700px;
+  left: -600px;
+  z-index: -1;
+}
+
+.home::after {
+  content: url("../../images/bg-pattern-bottom.svg");
+  position: absolute;
+  bottom: -700px;
+  right: -600px;
+  z-index: -1;
+}
