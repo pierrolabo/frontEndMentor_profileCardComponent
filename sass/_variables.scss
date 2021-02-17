@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sansdisplay=swap");
+
+//  Font Variables
+$kumbh-sans: "Kumbh Sans", sans-serif;
+$font-stack: $kumbh-sans;
+$font-nameAndStats: 18px;
+
+//  Font Weights
+$font-light: 400;
+$font-heavy: 700;
+
+//  Colors Primary
+$darkCyan: hsl(185, 75%, 39%);
+$veryDarkSaturadtedBlue: hsl(229, 23%, 23%);
+$darkGrayishBlue: hsl(227, 10%, 46%);
+
+//  Colors Neutral
+$darkGray: hsl(0, 0%, 59%);
+
+//  Breakpoints
+$breakpoint-desktop: 1440px;

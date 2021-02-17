@@ -4,15 +4,32 @@ html {
 }
 
 body {
+  height: 100vh;
   margin: 0;
   padding: 0;
-  background: hsl(185, 75%, 39%);
+  background: $darkCyan;
+  font-weight: $font-light;
+  font-family: $font-stack;
+  color: $darkGray;
 }
 
 //  Flex
 .flex {
   display: flex;
+
+  &-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-fd-c {
+    flex-direction: column;
+  }
   &-jc-c {
     justify-content: center;
+  }
+  &-ai-c {
+    align-items: center;
   }
 }

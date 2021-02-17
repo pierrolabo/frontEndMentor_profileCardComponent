@@ -15,42 +15,44 @@
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div class="home">
-      <div class="card">
+    <div class="home flex flex-col-center">
+      <div class="card flex flex-col-center">
         <img
-          class="card_content_thumbnail flex-jc-c"
-          src="images/image-victor.jpg"
+          class="card_content_thumbnail flex flex-jc-c"
+          src="./dist/images/image-victor.jpg"
+          alt="Avatar"
+          aria-labelledby="avatar-label"
         />
-        <img class="card_background" src="./dist/images/bg-pattern-card.svg" />
+        <img
+          class="card_background flex"
+          src="./dist/images/bg-pattern-card.svg"
+          alt=""
+        />
 
-        <div class="card_content_personalDetails">
-          <div>
-            <span class="card_content_details_name">Victor Crest</span>
+        <div class="card_content flex flex-col-center">
+          <div class="card_content_details">
+            <span class="card_content_details_name" id="avatar-label"
+              >Victor Crest</span
+            >
             <span class="card_content_details_age">26</span>
           </div>
-          <span class="card_content_city">London</span>
+          <span class="card_content_details_city">London</span>
         </div>
-        <div class="card_info">
-          <div class="card_info_followers">
+        <div class="card_info flex">
+          <div class="card_info_followers flex flex-col-center">
             <span class="card_info_count">80K</span>
             <span class="card_info_type">Followers</span>
           </div>
-          <div class="card_info_likes">
+          <div class="card_info_likes flex flex-col-center">
             <span class="card_info_count">803K</span>
             <span class="card_info_type">Likes</span>
           </div>
-          <div class="card_info_Photos">
+          <div class="card_info_Photos flex flex-col-center">
             <span class="card_info_count">1.4K</span>
             <span class="card_info_type">Photos</span>
           </div>
         </div>
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
     </div>
   </body>
 </html>
