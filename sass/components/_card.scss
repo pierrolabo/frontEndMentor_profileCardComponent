@@ -1,16 +1,25 @@
 .card {
   position: relative;
-  height: 380px;
+  height: 23.75rem;
   max-width: 24rem;
   border-radius: 15px;
   background: #fff;
   box-shadow: 0px 1px 4px $darkGrayishBlue;
+  margin: 12px;
+  //  iphone 5
+  @media (orientation: landscape) and (max-width: 600px) {
+    height: 18rem;
+    margin-top: auto;
+  }
 }
 
 .card_content_thumbnail {
   position: absolute;
   top: 25%;
-
+  //  iphone 5
+  @media (orientation: landscape) and (max-width: 600px) {
+    width: 26%;
+  }
   max-width: 100px;
   width: 100%;
   border-radius: 50%;
@@ -21,6 +30,10 @@
   height: 84%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  //  iphone 5
+  @media (orientation: landscape) and (max-width: 600px) {
+    height: 42%;
+  }
 }
 
 .card_content {
@@ -48,6 +61,11 @@
   border-top: 0.1px solid $darkGray;
   padding-top: 24px;
   padding-bottom: 24px;
+  //  iphone 5
+  @media (orientation: landscape) and (max-width: 600px) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
   &_type {
     color: $darkGray;
   }

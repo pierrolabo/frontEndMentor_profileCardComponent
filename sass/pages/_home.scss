@@ -5,7 +5,7 @@
 }
 
 .home::before {
-  content: url("../../dist/images/bg-pattern-top.svg");
+  content: url("../../images/bg-pattern-top.svg");
   position: absolute;
   top: -50%;
   right: 51.5%;
@@ -13,7 +13,7 @@
 }
 
 .home::after {
-  content: url("../../dist/images/bg-pattern-bottom.svg");
+  content: url("../../images/bg-pattern-bottom.svg");
   position: absolute;
   bottom: -60%;
   left: 51.5%;
